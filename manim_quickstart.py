@@ -70,7 +70,7 @@ class GridAndShapes(Scene):
         grp = VGroup(sq, cr, tr).arrange(RIGHT, buff=1)
         self.play(FadeIn(grp, shift=DOWN))
         self.play(Rotate(grp, angle=PI/4))
-        self.play(grp.animate.scale(1.2))
+        self.play(grp.animate.scale(1.7))
         self.play(grp.animate.set_opacity(0.4))
         self.wait(0.3)
 
